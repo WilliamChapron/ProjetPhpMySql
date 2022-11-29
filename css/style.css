@@ -1,0 +1,384 @@
+*{
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 20px;
+}
+/* Easter Egg */
+.easteregg-1{
+  display:none;
+  position:absolute;
+  width:250px;
+  height:250px;
+  top:500px;
+  left:650px;
+  background-image:url(../img/kang.png);
+  background-size:100% 100%;
+  z-index:9999;
+}
+.easteregg-2{
+  display:none;
+  position:absolute;
+  width:250px;
+  height:250px;
+  background-image:url("https://www.pngmart.com/files/11/Frog-Meme-PNG-Pic.png");
+  background-size:100% 100%;
+}
+.youwin{
+  display:none;
+  position:absolute;
+  top:500px;
+  left:350px;
+  font-size: 200px;
+  color:lightskyblue;
+}
+/* Nav */
+nav{
+  position: fixed!important;
+  z-index: 9998;
+}
+.nav-wrapper{
+  border-bottom: 2px solid white ;
+}
+.nav-wrapper img,footer img {
+  margin-left:12px;
+  margin-top:12px;
+  width:40px;
+  height:40px;
+}
+.sidenav{
+  margin-top: 55px!important;
+}
+.sidenav-trigger{
+  bottom:4px!important;
+}
+/* Middle welcome page */
+.border-top {
+  border-top: 10px solid white;
+}
+.parallax-container {
+  height: 150vh!important;
+}
+/* parallax*/ 
+.parallax-container h1{
+  color: white;
+  text-align: center;
+  margin-top: 300px;
+  text-decoration: 4px underline white;
+  font-size: 6rem;
+  text-shadow: 1px 0 10px black;
+}
+.parallax-container h4{
+  text-align: center;
+  color: white;
+  text-shadow: 1px 0 10px black;;
+}
+.parallax-container .r-btn{
+  margin-left: 45% ;
+  background-color: white!important;
+  box-shadow: 1px 1px 9px 5px black;
+  padding-left: 80px!important;
+  padding-right: 80px!important;
+}
+/* Row */
+#profil{
+    scroll-margin-top: 105px;
+}
+.col-container{
+  background-color: #1F2228	;
+  margin-bottom: 0px!important;
+  border-bottom: 2px solid white;
+}
+.col-container h2{
+  text-align: center;
+  color: white;
+  text-shadow: 1px 0 10px black;;
+}
+.size-transform {
+  height:35vh;
+}
+/* Edit Box in row */
+.size-transform-box {
+  height: 30vh;
+}
+.top-offset {
+  margin-top: 220px;
+}
+.p-p {
+  width: 100%;
+  height:100%;
+  border-radius: 30px!important;
+  box-shadow: 5px 4px 9px black;
+}
+.sub-container p { 
+  height: 300px;
+  overflow: auto;
+  color: white;
+  padding: 15px;
+  border: 2px solid white;
+  text-shadow: 1px 0 10px black;
+  border-radius: 30px
+}
+.sub-container span {
+  font-size: 50px!important;
+}
+.box-shadow {
+  border: 10px ridge #9a9898;
+  border-radius: 8px;
+  background-color: whitesmoke;
+}
+.l-btn{
+  left: -10;
+  bottom: 23px;
+  right: 0px;
+}
+/* Modals */
+.profil-l{
+  background-color:white;
+}
+.modal-content.contact{
+  overflow:auto;
+  background-color:black;
+  padding: 0px;
+}
+.modal-content img {
+  width: 100%;
+  height:auto;
+}
+.size-row {
+  width:100%;
+  height:62vh;
+}
+.modal-size-transform {
+  height: 50%;
+}
+.modal-content .row{
+  text-align:center;
+  border:2px solid black;
+  padding:15px;
+  border-radius:20px;
+}
+.modal .modal-footer.closer{
+    border-radius: 0 0 2px 2px;
+    background-color: #000000!important;
+    padding: 4px 6px;
+    height: 56px;
+    width: 100%;
+    text-align: right;
+}
+.modal .modal-footer.mLW{
+  background-color:white!important;
+  padding: 20px;
+}
+/* Footer */
+footer {
+  background-color:black;
+  color: #FFFFFF;
+  width: 100%;
+  border-top:2px white solid;
+}
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin:0;
+}
+footer p {
+  color:white;
+}
+footer ul a {
+  font-weight: normal;
+  color:white
+}
+footer ul a:hover {
+  font-weight: bold;
+}
+footer ul li p {
+  margin-left:30px;
+}
+/* Form Contact */
+.modal-content img{
+  border-radius:20px;
+  box-shadow: 5px 4px 9px black;
+}
+.modal-content h4{
+  text-shadow: 1px 0 5px black;
+}
+.modal-content p{
+  text-shadow: 1px 0 1px black;
+}
+.form {
+  background-color: black;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 30px;
+}
+.form div {
+  margin-top: 10px;
+}
+.form div.user-message{
+  margin-top: 30px;
+}
+.form form div {
+  width: 100%;
+}
+.form input, .form textarea, .form button {
+  border-radius: 30px;
+  padding: 15px;
+}
+.form button {
+  border-width: 3px;
+  border-color: black;
+  text-align: center;
+  cursor: pointer;
+}
+.form textarea {
+  height: 30vh;
+}
+.form button{
+  font-size: 30px;
+  width: 100%;
+}
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field textarea:focus + label {
+  color: orange !important;
+}
+.input-field .prefix.active{
+  color: orange;
+}
+input,textarea {
+  color: white;
+}
+.input-field input[type=text]:focus,.input-field input[type=email]:focus,.input-field textarea:focus {
+  border-bottom: 1px solid orange !important;
+  box-shadow: 0 1px 0 0 orange !important;
+}
+/* Mobile add to responsive */
+@media (max-width:  600px) {
+  .top-offset {
+    margin-top: 70px;
+  }
+  .inverse {
+    position:relative;
+    bottom:-55vh;
+  }
+  .inverse-negative {
+    position:relative;
+    bottom:35vh;
+  }
+  .l-btn{
+    left: 10;
+  }
+}
+/* PROJET TYPE PAGE */
+.project-container {
+  width: 100%;
+  height: 200vh;
+  margin:0px!important;
+}
+.size-transform-project {
+  height: 50%;
+}
+.size-transform-project-box {
+  height: 70%;
+}
+.sub-container-project .p-1 {
+  padding: 20px;
+  color:white;
+  overflow:auto;
+  border-radius: 20px;
+  border: 2px solid;
+  height: 400px;
+}
+.center, .center-align{
+  box-shadow: 5px 4px 9px black;
+}
+span{
+  font-size: 30px
+}
+.sub-container-project .p-2 {
+  padding: 20px;
+  color:white;
+  overflow:auto;
+  border-radius: 20px;
+  border: 2px solid;
+  height: 400px;
+}
+.carousel {
+  height:70%!important;
+  border-radius: 30px;
+}
+.carousel-item {
+  background-size: cover;
+  background-position: center;
+}
+.top-offset-project {
+  margin-top:150px;
+}
+
+.inverse-project {
+  margin-top:10px;
+}
+
+/* Tablet and Mobile add to responsive */
+
+@media (min-width: 600px) and (max-width:  1000px) {
+  .size-transform-project-box {
+    height: 60vh;
+  }
+  .carousel {
+    height:50%!important;
+  }
+  .l-btn{
+    left: 10;
+  }
+}
+
+/* SLIDE BACKGROUND logan page*/
+.rl{
+  background-image:url(../img/rl5.PNG);
+}
+.rl1{
+  background-image:url(../img/rl.png);
+}
+.rl2{
+  background-image:url(../img/rl2.PNG);
+}
+.rl3{
+  background-image:url(../img/rl3.PNG);
+}
+.rl4{
+  background-image:url(../img/rl6.jpg);
+}
+.rl5{
+  background-image:url(../img/rl7.jpg);
+}
+/* SLIDE BACKGROUND william page*/
+.plua-1 {
+  background-image:url(../img/addon.png);
+}
+.plua-2 {
+  background-image:url(../img/addon1.png);
+}
+.plua-3 {
+  background-image:url(../img/addon5.png);
+}
+.plua-4 {
+  background-image:url(../img/addon6.png);
+}
+.plua-5 {
+  background-image:url(../img/addon7.png);
+}
+/* SLIDE BACKGROUND PLW*/
+.mlt{
+    background-image:url(../img/pc2.jpg);
+}
+.mlt1{
+    background-image:url(../img/pc5.jpg);
+}
+.mlt2{
+    background-image:url(../img/pc4.jpg);
+}
+.mlt3{
+    background-image:url(../img/pc3.jpg);
+}
